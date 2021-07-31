@@ -22,3 +22,6 @@ web/assets/
 web/yaamp/.idea/
 *.0
 .vscode/
+/.vs/yiimp/v16
+/.vs/slnx.sqlite
+/.vs/slnx.sqlite-journal

@@ -10,7 +10,7 @@
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-	http://<?=YAAMP_API_URL?>/api/wallet?address=<b>WALLET_ADDRESS</b></p>
+	https://<?=YAAMP_API_URL?>/api/wallet?address=<b>WALLET_ADDRESS</b></p>
 
 result:
 <pre class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
@@ -25,7 +25,7 @@ result:
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-        http://<?=YAAMP_API_URL?>/api/walletEx?address=<b>WALLET_ADDRESS</b></p>
+        https://<?=YAAMP_API_URL?>/api/walletEx?address=<b>WALLET_ADDRESS</b></p>
 
 result:
 <pre class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
@@ -62,7 +62,7 @@ if (YAAMP_API_PAYOUTS)
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-	http://<?=YAAMP_API_URL?>/api/status</p>
+	https://<?=YAAMP_API_URL?>/api/status</p>
 
 result:
 <pre class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
@@ -88,7 +88,7 @@ result:
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-	http://<?=YAAMP_API_URL?>/api/currencies</p>
+	https://<?=YAAMP_API_URL?>/api/currencies</p>
 
 result:
 <pre class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
@@ -117,7 +117,7 @@ result:
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-	http://<?=YAAMP_API_URL?>/api/rental?key=API_KEY</p>
+	https://<?=YAAMP_API_URL?>/api/rental?key=API_KEY</p>
 
 result:
 <pre class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
@@ -154,7 +154,7 @@ result:
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-	http://<?=YAAMP_API_URL?>/api/rental_price?key=API_KEY&jobid=xx&price=xx</p>
+	https://<?=YAAMP_API_URL?>/api/rental_price?key=API_KEY&jobid=xx&price=xx</p>
 
 </pre>
 
@@ -164,7 +164,7 @@ request:
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-	http://<?=YAAMP_API_URL?>/api/rental_hashrate?key=API_KEY&jobid=xx&hashrate=xx</p>
+	https://<?=YAAMP_API_URL?>/api/rental_hashrate?key=API_KEY&jobid=xx&hashrate=xx</p>
 
 </pre>
 
@@ -172,7 +172,7 @@ request:
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-	http://<?=YAAMP_API_URL?>/api/rental_start?key=API_KEY&jobid=xx</p>
+	https://<?=YAAMP_API_URL?>/api/rental_start?key=API_KEY&jobid=xx</p>
 
 </pre>
 
@@ -180,7 +180,7 @@ request:
 
 request:
 <p class="main-left-box" style='padding: 3px; font-size: .8em; background-color: #ffffee; font-family: monospace;'>
-	http://<?=YAAMP_API_URL?>/api/rental_stop?key=API_KEY&jobid=xx</p>
+	https://<?=YAAMP_API_URL?>/api/rental_stop?key=API_KEY&jobid=xx</p>
 
 </pre>
 
